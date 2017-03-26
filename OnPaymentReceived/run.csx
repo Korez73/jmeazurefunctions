@@ -17,6 +17,7 @@ public class Order
 public static async Task<object> Run(HttpRequestMessage req, TraceWriter log, IAsyncCollector<Order> outputQueueItem, IAsyncCollector<Order> outputTable)
 {
     /*
+    Look at me use GIT!
     log.Info($"Webhook was triggered!");
 
     string jsonContent = await req.Content.ReadAsStringAsync();
